@@ -44,24 +44,24 @@
 
 #date time
 
-import datetime
-now = datetime.datetime.now()
-now1 = datetime.datetime.now()
+# import datetime
+# now = datetime.datetime.now()
+# now1 = datetime.datetime.now()
 
-print(now1)
+# print(now1)
 # print(now.year,"년",now.month, "월",now.day, "일",
 #       now.hour, "시",now.minute, "분",now.second, "초")
 # print(now.microsecond,"마이크로새컨드")      
-print("{}년{}월{}일{}시{}분{}초".format(now.year,now.month,now.day,
-                                now.hour,now.minute,now.second))
+# print("{}년{}월{}일{}시{}분{}초".format(now.year,now.month,now.day,
+#                                 now.hour,now.minute,now.second))
 
-if now.hour<12:
-    print("{}{}{}입니다".format("오전",now.hour,"시"))
-    # print("오전",now.hour,"시 입니다")
-if now.hour>12:
-    # print("오후",now.hour,"시 입니다")
-    print("{} {}{}".format("오후",now.hour-12,"시 입니다"))
+# if now.hour<12:
+#     print("{}{}{}입니다".format("오전",now.hour,"시"))
+#     # print("오전",now.hour,"시 입니다")
+# if now.hour>12:
+#     # print("오후",now.hour,"시 입니다")
+#     print("{} {}{}".format("오후",now.hour-12,"시 입니다"))
 
-# 계절 구분
-if 3 <= now.month <6:
-    print("이번달은 {}로 봄입니다".format(now.month))
+# # 계절 구분
+# if 3 <= now.month <6:
+#     print("이번달은 {}로 봄입니다".format(now.month))
